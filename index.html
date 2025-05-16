@@ -1,128 +1,183 @@
 <!DOCTYPE html>
 <!-- upto 2 directory depth-->
 <html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Моё резюме</title>
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin"/>
-    <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print" onload="this.media='all'"/>
-    <noscript>
-      <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap"/>
-    </noscript>
-    <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
-    <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
-    <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
-    <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
-    <noscript>
-      <style type="text/css">
-        [data-aos] {
-            opacity: 1 !important;
-            transform: translate(0) scale(1) !important;
-        }
-      </style>
-    </noscript>
-  </head>
-  <body id="top">
-    <header class="bg-light">
-      <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
-        <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">Моё резюме</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
-          <div class="collapse navbar-collapse" id="navbarSupportedContent">
-            <ul class="navbar-nav ms-auto me-2">
-              <li class="nav-item"><a class="nav-link" href="#about">О себе</a></li>
-              <!-- <li class="nav-item"><a class="nav-link" href="#services">Services</a></li> -->
-              <li class="nav-item"><a class="nav-link" href="#skills">Навыки</a></li>
-              <!-- <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li> -->
-              <li class="nav-item"><a class="nav-link" href="#experience">Опыт</a></li>
-              <li class="nav-item"><a class="nav-link" href="#certificat">Сертификаты</a></li>
-            </ul>
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Моё резюме</title>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="crossorigin" />
+  <link rel="preload" as="style"
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+  <link rel="stylesheet"
+    href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" media="print"
+    onload="this.media='all'" />
+  <noscript>
+    <link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@300;400;700;800&amp;display=swap" />
+  </noscript>
+  <link href="./css/font-awesome/css/all.min.css?ver=1.2.0" rel="stylesheet">
+  <link href="./css/bootstrap-icons/bootstrap-icons.css?ver=1.2.0" rel="stylesheet">
+  <link href="./css/bootstrap.min.css?ver=1.2.0" rel="stylesheet">
+  <link href="./css/aos.css?ver=1.2.0" rel="stylesheet">
+  <link href="./css/main.css?ver=1.2.0" rel="stylesheet">
+  <noscript>
+    <style type="text/css">
+      [data-aos] {
+        opacity: 1 !important;
+        transform: translate(0) scale(1) !important;
+      }
+    </style>
+  </noscript>
+</head>
+
+<body id="top">
+  <header class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-light" id="header-nav" role="navigation">
+      <div class="container"><a class="link-dark navbar-brand site-title mb-0" href="#">Моё резюме</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation"><span
+            class="navbar-toggler-icon"></span></button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+          <ul class="navbar-nav ms-auto me-2">
+            <li class="nav-item"><a class="nav-link" href="#about">О себе</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#services">Services</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="#skills">Навыки</a></li>
+            <!-- <li class="nav-item"><a class="nav-link" href="#portfolio">Portfolio</a></li> -->
+            <li class="nav-item"><a class="nav-link" href="#experience">Опыт</a></li>
+            <li class="nav-item"><a class="nav-link" href="#certificat">Сертификаты</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+  <div class="page-content">
+    <div id="content">
+      <header>
+        <div class="cover bg-light">
+          <div class="container px-3">
+            <div class="row">
+              <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/hello3.svg" alt="hello" />
+              </div>
+              <div class="col-lg-6">
+                <div class="mt-5">
+                  <p class="lead text-uppercase mb-1">Привет!</p>
+                  <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">Я Александр Сущевич</h1>
+                  <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100"> Java backend developer
+                  </p>
+                  <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
+                    <nav role="navigation">
+                      <ul class="nav justify-content-left">
+                        <li class="nav-item"><a class="nav-link" href="https://twitter.com/MarklarSani"
+                            title="Twitter"><i class="fab fa-twitter"></i><span
+                              class="menu-title sr-only">Twitter</span></a></li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/marklar_blr/"
+                            title="Instagram"><i class="fab fa-instagram"></i><span
+                              class="menu-title sr-only">Instagram</span></a></li>
+                        <li class="nav-item"><a class="nav-link"
+                            href="https://www.linkedin.com/in/sanimarklar/" title="LinkedIn"><i
+                              class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
+                      </ul>
+                    </nav>
+                  </div>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-      </nav>
-    </header>
-    <div class="page-content">
-      <div id="content">
-<header>
-  <div class="cover bg-light">
-    <div class="container px-3">
-      <div class="row">
-        <div class="col-lg-6 p-2"><img class="img-fluid" src="images/illustrations/hello3.svg" alt="hello"/></div>
-        <div class="col-lg-6">
-          <div class="mt-5">
-            <p class="lead text-uppercase mb-1">Привет!</p>
-            <h1 class="intro-title marker" data-aos="fade-left" data-aos-delay="50">Я Александр Сущевич</h1>
-            <p class="lead fw-normal mt-3" data-aos="fade-up" data-aos-delay="100">Преподаватель программирования</p>
-            <div class="social-nav" data-aos="fade-up" data-aos-delay="200">
-              <nav role="navigation">
-                <ul class="nav justify-content-left">
-                  <li class="nav-item"><a class="nav-link" href="https://twitter.com/MarklarSani" title="Twitter"><i class="fab fa-twitter"></i><span class="menu-title sr-only">Twitter</span></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.instagram.com/marklar_blr/" title="Instagram"><i class="fab fa-instagram"></i><span class="menu-title sr-only">Instagram</span></a></li>
-                  <li class="nav-item"><a class="nav-link" href="https://www.linkedin.com/in/sani-marklar-45b478231/" title="LinkedIn"><i class="fab fa-linkedin"></i><span class="menu-title sr-only">LinkedIn</span></a></li>
-                </ul>
-              </nav>
+        <div class="wave-bg"></div>
+      </header>
+      <div class="section pt-4 px-3 px-lg-4" id="about">
+        <div class="container-narrow">
+          <div class="row">
+            <div class="col-md-6">
+              <h2 class="h4 my-2">Привет! Я Александр Сущевич.</h2>
+              <h5>🧑‍💻 О себе </h5>
+
+              <p>Я — Java back-end разработчик с опытом создания и поддержки корпоративных приложений. Основная часть
+                моей работы была связана с сервисом review-service: написание, поддержка, интеграция с другими
+                сервисами. Имею готовый Telegram-бот, написанный на Python. Также активно занимаюсь преподаванием детям
+                различных направлений: Java, Python, системное администрирование, робототехника.
+              </p>
+
+              <p>
+              <h5>🛠 Навыки и технологии</h5>
+              <b>Языки программирования:</b> Java, Python, HTML, CSS
+              </p>
+
+              <b>Разработка ПО</b>: создание и поддержка различного программного обеспечения
+              <hr>
+              <h5>Технологии и инструменты:</h5>
+              <ul>
+                <li>JDBC & Hibernate</li>
+                <li> Spring Framework (Boot, Security и др.)</li>
+                <li>Keycloak (авторизация и аутентификация)</li>
+                <li>REST API: проектирование, реализация, документация</li>
+                <li>Написание модульных и интеграционных тестов (JUnit, Mockito и др.)</li>
+                <li>Работа с системами контроля версий (Git)</li>
+                <li>Сборка проектов с использованием Maven</li>
+                <li>Опыт работы с базами данных и написанием SQL-запросов</li>
+                <li>Базовые знания Docker</li>
+              </ul>
+              <p>
+              <h5>🎓 Образование</h5>
+              Гомельский государственный университет им. Ф. Скорины
+              Факультет физики и информационных технологий
+              </p>
+              <h5>🗣 Английский язык </h5>
+
+              Разговорный — B1 <br>
+
+              Письменный — A2
+
+              <div class="row mt-3">
+                <div class="col-sm-2">
+                  <div class="pb-1">Возраст:</div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pb-1 fw-bolder">24</div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="pb-1">Email:</div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pb-1 fw-bolder">marklarsani10@gmail.com</div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="pb-1">GitHub:</div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pb-1 fw-bolder">https://github.com/Asushchevich</div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="pb-1">Телефон:</div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pb-1 fw-bolder">+375(29)818-60-41</div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="pb-1">Адресс:</div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pb-1 fw-bolder">Gomel, Belarus</div>
+                </div>
+                <div class="col-sm-2">
+                  <div class="pb-1">Статус:</div>
+                </div>
+                <div class="col-sm-10">
+                  <div class="pb-1 fw-bolder">Свободен</div>
+                </div>
+
+              </div>
+            </div>
+            <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img
+                class="avatar img-fluid mt-2" src="images/ebalo.jpg" width="400" height="400" alt="Walter Patterson" />
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-  <div class="wave-bg"></div>
-</header>
-<div class="section pt-4 px-3 px-lg-4" id="about">
-  <div class="container-narrow">
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="h4 my-2">Привет! Я Александр Сущевич.</h2>
-        <p>IЯ преподаватель Гомельского областного центра технического творчества детей и юношества. Обучаю детей различным направлениям: Python, системное администрирование, ABC Pascal, робототехника. Иметь знания HTML и CSS. Готовый телеграм-бот, написанный на Pythone. Образование высшее ГГУ им. Ф. Скорины, факультет физики и информационных технологий. Уровень английского языка (разговорный B1, письменный A2)</p>
-        <div class="row mt-3">
-          <div class="col-sm-2">
-            <div class="pb-1">Возраст:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">22</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Email:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">marklarsani10@gmail.com</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">GitHub:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">https://github.com/Asushchevich</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Телефон:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">+375(29)818-60-41</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Адресс:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Gomel, Belarus</div>
-          </div>
-          <div class="col-sm-2">
-            <div class="pb-1">Статус:</div>
-          </div>
-          <div class="col-sm-10">
-            <div class="pb-1 fw-bolder">Свободен</div>
-          </div>
-          
-        </div>
-      </div>
-      <div class="col-md-5 offset-md-1" data-aos="fade-left" data-aos-delay="100"><img class="avatar img-fluid mt-2" src="images/foto.jpg" width="400" height="400" alt="Walter Patterson"/></div>
-    </div>
-  </div>
-</div>
-<!-- <div class="section px-3 px-lg-4 pt-5" id="services">
+      <!-- <div class="section px-3 px-lg-4 pt-5" id="services">
   <div class="container-narrow">
     <div class="text-center mb-5">
       <h2 class="marker marker-center">My Services</h2>
@@ -146,61 +201,74 @@
     </div>
   </div>
 </div> -->
-<div class="section px-3 px-lg-4 pt-5" id="skills">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">My Skills</h2>
-    </div>
-    <div class="text-center">
-      <p class="mx-auto mb-3" style="max-width:600px">Я быстро учусь и специализируюсь на множестве навыков, необходимых для разработки приложений.</p>
-    </div>
-    <div class="bg-light p-3">
-      <div class="row">
-        <div class="col-md-5">
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">HTML5</span><span>40%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+      <div class="section px-3 px-lg-4 pt-5" id="skills">
+        <div class="container-narrow">
+          <div class="text-center mb-5">
+            <h2 class="marker marker-center">My Skills</h2>
           </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">CSS3</span><span>35%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
+          <div class="text-center">
+            <p class="mx-auto mb-3" style="max-width:600px">Я быстро учусь и специализируюсь на множестве навыков,
+              необходимых для разработки приложений.</p>
           </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">Java</span><span>40%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 35%" aria-valuenow="35" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-        </div>
-        <div class="col-md-5 offset-md-2">
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">Python</span><span>50%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">GitHub</span><span>70%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 70%" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100"></div>
-            </div>
-          </div>
-          <div class="py-1">
-            <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span><span>40%</span></div>
-            <div class="progress my-1">
-              <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right" data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 40%" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100"></div>
+          <div class="bg-light p-3">
+            <div class="row">
+              <div class="col-md-5">
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">HTML5</span><span>30%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                      data-aos-delay="100" data-aos-anchor=".skills-section" style="width: 30%" aria-valuenow="30"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">CSS3</span><span>35%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                      data-aos-delay="200" data-aos-anchor=".skills-section" style="width: 35%" aria-valuenow="35"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">Java</span><span>60%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                      data-aos-delay="300" data-aos-anchor=".skills-section" style="width: 60%" aria-valuenow="60"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="col-md-5 offset-md-2">
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">Python</span><span>40%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                      data-aos-delay="400" data-aos-anchor=".skills-section" style="width: 40%" aria-valuenow="40"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">GitHub</span><span>75%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                      data-aos-delay="500" data-aos-anchor=".skills-section" style="width: 75%" aria-valuenow="75"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+                <div class="py-1">
+                  <div class="d-flex text-small fw-bolder"><span class="me-auto">MySQL</span><span>65%</span></div>
+                  <div class="progress my-1">
+                    <div class="progress-bar bg-primary" role="progressbar" data-aos="zoom-in-right"
+                      data-aos-delay="600" data-aos-anchor=".skills-section" style="width: 65%" aria-valuenow="65"
+                      aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                </div>
+              </div>
             </div>
           </div>
         </div>
       </div>
-    </div>
-  </div>
-</div>
-<!-- <div class="section px-2 px-lg-4 pt-5" id="portfolio">
+      <!-- <div class="section px-2 px-lg-4 pt-5" id="portfolio">
   <div class="container">
     <div class="text-center mb-5">
       <h2 class="marker marker-center">Portfolio </h2>
@@ -266,46 +334,70 @@
     </div>
   </div>
 </div> -->
-<div class="section px-3 px-lg-4 pt-5" id="experience">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">Опыт разработки</h2>
-    </div>
-    <div class="row">
-      <div class="col-md-6">
-        <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
-          <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-              <div>
-                <h3 class="h5 mb-1">Разработка приложений</h3>
-                <div class="text-muted text-small">GSU<small>(2018)</small></div>
-              </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="ui-ux"/>
-            </div>
+      <div class="section px-3 px-lg-4 pt-5" id="experience">
+        <div class="container-narrow">
+          <div class="text-center mb-5">
+            <h2 class="marker marker-center">Опыт разработки</h2>
           </div>
-          <div class="card-body px-3 py-2">
-            <p>Простой конвертер был создан с использованием API, написанного на Vue. Его репозиторий находится на моем GitHub. Это было одно из заданий в университете, на этот проект было потрачено около 10 часов.</p>
-          </div>
-        </div>
-      </div>
-      <div class="col-md-6">
-        <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
-          <div class="card-header px-3 py-2">
-            <div class="d-flex justify-content-between">
-              <div>
-                <h3 class="h5 mb-1">Telegram Bot</h3>
-                <div class="text-muted text-small">GSU<small>(2021)</small></div>
-              </div><img src="images/services/app-development.svg" width="48" height="48" alt="app development"/>
-            </div>
-          </div>
-          <div class="card-body px-3 py-2">
-            <p>Этот телеграм-бот создан для практики работы на языке Python. Внутренний язык бота — русский. Он может:</p>
-              <p>1. Отображение текущего времени и даты</p>
-              <p>2. Отображать расписание создателя (меня)</p>
-              <p></p>3. Показать случайную шутку</p>
-          </div>
-        </div>
-      </div>
-      <!--<div class="col-md-6">
+          <div class="row">
+            <article class="col-md-6">
+              <div class="card mb-3" data-aos="fade-right" data-aos-delay="100">
+                <div class="card-header px-3 py-2">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="h5 mb-1">Разработка приложений</h3>
+                      <div class="text-muted text-small">GSU<small>(2018)</small></div>
+                    </div><img src="images/services/ui-ux.svg" width="48" height="48" alt="ui-ux" />
+                  </div>
+                </div>
+                <div class="card-body px-3 py-2">
+                  <p>Простой конвертер был создан с использованием API, написанного на Vue. Его репозиторий находится на
+                    моем GitHub. Это было одно из заданий в университете, на этот проект было потрачено около 10 часов.
+                  </p>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-md-6">
+              <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+                <div class="card-header px-3 py-2">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="h5 mb-1">Telegram Bot</h3>
+                      <div class="text-muted text-small">GSU<small>(2021)</small></div>
+                    </div><img src="images/services/app-development.svg" width="48" height="48" alt="app development" />
+                  </div>
+                </div>
+                <div class="card-body px-3 py-2">
+                  <p>Этот телеграм-бот создан для практики работы на языке Python. Внутренний язык бота — русский. Он
+                    может:</p>
+                  <p>1. Отображение текущего времени и даты</p>
+                  <p>2. Отображать расписание создателя (меня)</p>
+                  <p></p>3. Показать случайную шутку</p>
+                </div>
+              </div>
+            </article>
+
+            <article class="col-md-6">
+              <div class="card mb-3" data-aos="fade-left" data-aos-delay="300">
+                <div class="card-header px-3 py-2">
+                  <div class="d-flex justify-content-between">
+                    <div>
+                      <h3 class="h5 mb-1">Разработка и поддержка review-service</h3>
+                      <div class="text-muted text-small">Собственный проект (2025)</div>
+                    </div><img src="images/java-logo.jpg" width="48" height="48" alt="java development" />
+                  </div>
+                </div>
+                <div class="card-body px-3 py-2">
+                  Сервис был разработан в рамках практической деятельности как Java back-end разработчиком. Это
+                  приложение предоставляло API для обработки отзывов (review) в рамках микросервисной архитектуры.
+                  Проект занял около 40–50 часов активной разработки. В процессе реализации были созданы не только
+                  основные функции, но и дополнительные инструменты и проверки, обеспечивающие стабильность,
+                  безопасность и расширяемость сервиса.
+                </div>
+              </div>
+            </article>
+            <!--<div class="col-md-6">
         <div class="card mb-3" data-aos="fade-right" data-aos-delay="200">
           <div class="card-header px-3 py-2">
             <div class="d-flex justify-content-between">
@@ -321,7 +413,7 @@
           </div>
         </div>
       </div> -->
-     <!--<div class="col-md-6">
+            <!--<div class="col-md-6">
         <div class="card mb-3" data-aos="fade-left" data-aos-delay="400">
           <div class="card-header px-3 py-2">
             <div class="d-flex justify-content-between">
@@ -340,28 +432,34 @@
     </div>
   </div>
 </div> -->
-<div class="section px-3 px-lg-4 pt-5" id="testimonials">
-  <div class="container-narrow">
-    <div class="text-center mb-5">
-      <h2 class="marker marker-center">Сертификаты и курсы
-      </h2>
-    </div>
-    <div class="row"> 
-      <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="100">
-        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Подтверждение уровня английского и результат прохождение курса. Могу читать техническую литературу.</span></div>
-        <div class="d-flex justify-content-end align-items-end">
-          <div class="text-end me-2">
-          </div><img class="me-md-3 rounded" src="images/English certificatJPG.jpg" width="640" height="320" alt="client 1"/>
-        </div>
-      </div>
-      <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="300">
-        <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Подтверждение успешного прохождения курса по направлению JavaDeveloper. Длительность обучения - 140 учебных часов.</span></div>
-        <div class="d-flex justify-content-end align-items-end">
-          <div class="text-end me-2">
-          </div><img class="me-md-3 rounded" src="images/Aliaksandr Sushchevich Java certificatJPG.jpg" width="420" height="540" alt="client 1"/>
-        </div>
-      </div>
-      <!-- <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="200">
+            <div class="section px-3 px-lg-4 pt-5" id="certificat">
+              <div class="container-narrow">
+                <div class="text-center mb-5">
+                  <h2 class="marker marker-center">Сертификаты и курсы
+                  </h2>
+                </div>
+                <div class="row">
+                  <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="100">
+                    <div class="d-flex"><span><i class="fas fa-2x fa-quote-left"></i></span><span
+                        class="m-2">Подтверждение уровня английского и результат прохождение курса. Могу читать
+                        техническую литературу.</span></div>
+                    <div class="d-flex justify-content-end align-items-end">
+                      <div class="text-end me-2">
+                      </div><img class="rounded w-100" src="images/English certificatJPG.jpg" height="320"
+                        alt="client 1" />
+                    </div>
+                  </div>
+                  <div class="col-md-6 mb-5" data-aos="fade-left" data-aos-delay="300">
+                    <div class="d-flex"><span><i class="fas fa-2x fa-quote-left"></i></span><span
+                        class="m-2">Подтверждение успешного прохождения курса по направлению JavaDeveloper. Длительность
+                        обучения - 140 учебных часов.</span></div>
+                    <div class="d-flex justify-content-end align-items-end">
+                      <div class="text-end me-2">
+                      </div><img class="w-100 rounded" src="images/Aliaksandr Sushchevich Java certificatJPG.jpg"
+                        alt="client 1" />
+                    </div>
+                  </div>
+                  <!-- <div class="col-md-6 mb-5" data-aos="fade-right" data-aos-delay="200">
         <div class="d-flex ms-md-3"><span><i class="fas fa-2x fa-quote-left"></i></span><span class="m-2">Walter is a great co-worker and problem solver. He is quick to extend his helping hand and makes a good team player.</span></div>
         <div class="d-flex justify-content-end align-items-end">
           <div class="text-end me-2">
@@ -382,17 +480,20 @@
     </div>
   </div>
 </div> -->
-    </div>
-  </div>
-</footer></div>
-    </div>
-    <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i class="fas fa-angle-up fa-x"></i></span></a></div>
-    <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
-    <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
-    <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
-    <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
-    <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
-    <script src="./scripts/aos.min.js?ver=1.2.0"></script>
-    <script src="./scripts/main.js?ver=1.2.0"></script>
-  </body>
+                </div>
+              </div>
+              </footer>
+            </div>
+          </div>
+          <div id="scrolltop"><a class="btn btn-secondary" href="#top"><span class="icon"><i
+                  class="fas fa-angle-up fa-x"></i></span></a></div>
+          <script src="./scripts/imagesloaded.pkgd.min.js?ver=1.2.0"></script>
+          <script src="./scripts/masonry.pkgd.min.js?ver=1.2.0"></script>
+          <script src="./scripts/BigPicture.min.js?ver=1.2.0"></script>
+          <script src="./scripts/purecounter.min.js?ver=1.2.0"></script>
+          <script src="./scripts/bootstrap.bundle.min.js?ver=1.2.0"></script>
+          <script src="./scripts/aos.min.js?ver=1.2.0"></script>
+          <script src="./scripts/main.js?ver=1.2.0"></script>
+</body>
+
 </html>
